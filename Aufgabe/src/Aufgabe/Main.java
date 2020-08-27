@@ -5,8 +5,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String helloWorld=" Hello World ";
+        String helloWorld=" Hello World! ";
         String string1 = new String(helloWorld);
+        String repeater;
 
         System.out.println(helloWorld+" hat "+string1.length()+" Zeichen");
         System.out.println(helloWorld.toUpperCase());
@@ -14,6 +15,7 @@ public class Main {
         helloWorld = helloWorld.replace("World", "Codersbay");
         System.out.println(helloWorld);
         String trimHelloWorld=helloWorld.replaceAll("^\\s+", "");
-        System.out.println(trimHelloWorld);
+        repeater=trimHelloWorld+"\n";
+        System.out.println(repeater.repeat(15));
     }
 }
