@@ -8,7 +8,7 @@ public class Main {
         String string1 = new String(helloWorld);
         String repeater;
 
-        System.out.println(helloWorld+" hat "+string1.length()+" Zeichen");
+        System.out.printf("%s hat %s Zeichen", helloWorld, string1.length());
         System.out.println(helloWorld.toUpperCase());
         System.out.println(helloWorld.toLowerCase());
         helloWorld = helloWorld.replace("World", "Codersbay");
