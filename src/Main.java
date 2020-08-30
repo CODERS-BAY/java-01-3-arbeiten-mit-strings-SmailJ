@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         String helloWorld=" Hello World! ";
-        String string1 = new String(helloWorld);
         String repeater;
 
-        System.out.printf("%s hat %s Zeichen", helloWorld, string1.length());
+        System.out.printf("%s hat %s Zeichen", helloWorld, helloWorld.length());
+        System.out.println();
         System.out.println(helloWorld.toUpperCase());
         System.out.println(helloWorld.toLowerCase());
         helloWorld = helloWorld.replace("World", "Codersbay");
