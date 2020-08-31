@@ -7,7 +7,7 @@ public class Main {
         String helloWorld=" Hello World! ";
         String repeater;
 
-        System.out.printf("%s hat %s Zeichen", helloWorld, helloWorld.length());
+        System.out.printf("%s hat %d Zeichen", helloWorld, helloWorld.length());
         System.out.println();
         System.out.println(helloWorld.toUpperCase());
         System.out.println(helloWorld.toLowerCase());
